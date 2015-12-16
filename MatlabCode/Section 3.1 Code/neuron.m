@@ -1,4 +1,4 @@
-function h = neuron(W,X,TYPE)
+function h = neuron(X,W,TYPE)
 if nargin < 3
     TYPE = 1;
 end
